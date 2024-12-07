@@ -15,3 +15,14 @@ const isLoggedIn = false    //boolean
 const outsideTemp = null    //null
 let userEmail;  //undefined
 const id = Symbol('123')
+
+const heros = ["shaktiman","naagraj","doga"]
+let myObj ={
+                name: "Apurva",
+                age: "23"
+            }
+
+const myFunction = function(){
+    console.log("Hello World!!");
+    
+}
