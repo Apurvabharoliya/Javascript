@@ -5,9 +5,11 @@
 
 // console.log(`Hello ${name} your repo count is ${repoCount}`);   //Print string like this
 
-const name = new String('Apurva')
+const charname = new String('Apurva')
 
-console.log(name[0]);
-console.log(name.__proto__);
+console.log(charname[0]);
+console.log(charname.__proto__);
 
-console.log(name.length);
+console.log(charname.length);
+console.log(charname.toUpperCase());
+console.log(charname.charAt(4));
