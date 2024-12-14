@@ -18,7 +18,14 @@ const DC_heros = ["Batman", "Superman", "Flash", "Joker"]
 // flat function
 
 const array = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
-console.log(array);
-const another_array = array.flat(Infinity)
-console.log(another_array);
+// console.log(array);
+// const another_array = array.flat(Infinity)
+// console.log(another_array);
 
+console.log(Array.isArray("Apurva"))
+console.log((Array.from("Apurva")));
+console.log(Array.of({name:"Apurva"}))
+let score1 = 200
+let score2 = 340
+let score3 = 453
+console.log(Array.of(score1,score2,score3))
