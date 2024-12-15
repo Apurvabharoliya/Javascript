@@ -24,4 +24,7 @@ const JsUsers = {
 JsUsers.email = "apurva9800@gmail.com"
 // console.log(JsUsers.email);
 // console.log(JsUsers);
+// Object.freeze(JsUsers)
 
+//functions
+JsUsers.greeting =  
