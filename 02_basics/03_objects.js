@@ -23,3 +23,5 @@ console.log(JsUsers[mySym])
 
 JsUsers.email = "apurva9800@gmail.com"
 console.log(JsUsers.email);
+console.log(JsUsers);
+
