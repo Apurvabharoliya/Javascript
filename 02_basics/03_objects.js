@@ -15,13 +15,13 @@ const JsUsers = {
     lastLoggedIn: ["Monday","Tuesday"]
 }
 
-console.log(JsUsers.email)
-console.log(JsUsers["age"])
+// console.log(JsUsers.email)
+// console.log(JsUsers["age"])
 //Use square brackets('[]') because you don't know that the keys of the objects have space in between them or not, So use square brackets mostly.
-console.log(JsUsers["Full name"])
-console.log(JsUsers[mySym])
+// console.log(JsUsers["Full name"])
+// console.log(JsUsers[mySym])
 
 JsUsers.email = "apurva9800@gmail.com"
-console.log(JsUsers.email);
-console.log(JsUsers);
+// console.log(JsUsers.email);
+// console.log(JsUsers);
 
